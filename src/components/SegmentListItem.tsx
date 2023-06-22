@@ -22,7 +22,7 @@ export default function SegmentListItem({ index, row }: SegmentListItemProps) {
   return (
     <div
       key={index}
-      className="flex flex-row my-2 p-4 rounded-md border border-gray-300 text-xs tracking-tight md:text-md md:tracking-normal"
+      className="flex flex-row my-2 p-4 rounded-md border border-gray-300 text-xs tracking-tight md:text-base md:tracking-normal"
     >
       <div className="basis-1/4">
         <a
