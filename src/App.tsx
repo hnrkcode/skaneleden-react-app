@@ -43,7 +43,7 @@ function App() {
   }
 
   function handleSearch(value: string) {
-    setSearchValue(value);
+    setSearchValue(value.toLowerCase());
   }
 
   let segments = [...segmentData];
