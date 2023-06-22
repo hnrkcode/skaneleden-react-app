@@ -83,8 +83,8 @@ function App() {
   }
 
   return (
-    <div className="container mx-auto my-16">
-      <div className="flex flex-col">
+    <div className="container mx-auto my-2 md:my-16">
+      <div className="flex flex-col mx-2">
         <SegmentSearch onSearch={handleSearch} />
         <SegmentFilters
           onSelectTrack={handleSelectTrack}

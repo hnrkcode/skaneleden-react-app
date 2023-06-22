@@ -12,8 +12,8 @@ export default function SegmentListHeaderTitle({
   activeColumn,
 }: SegmentListHeaderTitleProps) {
   return (
-    <div className="flex flex-row basis-1/4 items-center gap-2">
-      <h2 className="font-bold mb-2">{title}</h2>
+    <div className="flex flex-row basis-1/4 items-center gap-2 mb-2">
+      <h2 className="font-bold">{title}</h2>
       <div className="text-xs leading-3 cursor-pointer select-none">
         <div
           className={

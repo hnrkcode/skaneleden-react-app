@@ -19,7 +19,7 @@ export default function SegmentFilters({
   const toDistanceSelectId = useId();
 
   return (
-    <div className="flex flex-row mb-6 gap-2">
+    <div className="flex flex-row mb-6 justify-between md:justify-start md:gap-2">
       <div>
         <label htmlFor={trackSelectId}>Track</label>
         <select
