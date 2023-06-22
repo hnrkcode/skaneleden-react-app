@@ -25,5 +25,5 @@ export default function SegmentListHeader({ onSort }: SegmentListHeaderProps) {
     />
   ));
 
-  return <div className="flex flex-row px-4">{titles}</div>;
+  return <div className="flex flex-row">{titles}</div>;
 }
