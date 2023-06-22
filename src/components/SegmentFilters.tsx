@@ -19,7 +19,7 @@ export default function SegmentFilters({
   const toDistanceSelectId = useId();
 
   return (
-    <div className="SegmentFilter">
+    <div>
       <div>
         <label htmlFor={trackSelectId}>Track</label>
         <select

@@ -96,7 +96,7 @@ export default function SegmentList({ rows }: SegmentListProps) {
   ));
 
   return (
-    <div className="SegmentList">
+    <div>
       <SegmentListHeader onSort={handleSort} />
       {renderedItems}
     </div>

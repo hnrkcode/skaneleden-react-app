@@ -8,15 +8,11 @@ export default function SegmentListHeaderTitle({
   onSort,
 }: SegmentListHeaderTitleProps) {
   return (
-    <div className="SegmentHeaderTitle">
+    <div>
       <h2>{title}</h2>
       <div>
-        <div className="upArrow" onClick={() => onSort(title, "asc")}>
-          &#9650;
-        </div>
-        <div className="downArrow" onClick={() => onSort(title, "desc")}>
-          &#9660;
-        </div>
+        <div onClick={() => onSort(title, "asc")}>&#9650;</div>
+        <div onClick={() => onSort(title, "desc")}>&#9660;</div>
       </div>
     </div>
   );

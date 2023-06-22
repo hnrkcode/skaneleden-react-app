@@ -20,7 +20,7 @@ export default function SegmentListItem({ index, row }: SegmentListItemProps) {
   const distanceInKm = `${row.distance / 1000} km`;
 
   return (
-    <div key={index} className="SegmentItem">
+    <div key={index}>
       <div>
         <a
           href={`https://www.skaneleden.se/etapp/${row.segment.slug}`}

@@ -83,7 +83,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <>
       <SegmentSearch onSearch={handleSearch} />
       <SegmentFilters
         onSelectTrack={handleSelectTrack}
@@ -92,7 +92,7 @@ function App() {
         onSelectTo={handleSelectTo}
       />
       <SegmentList rows={rows} />
-    </div>
+    </>
   );
 }
 

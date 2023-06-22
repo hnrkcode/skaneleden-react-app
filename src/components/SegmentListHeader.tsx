@@ -9,5 +9,5 @@ export default function SegmentListHeader({ onSort }: SegmentListHeaderProps) {
     <SegmentListHeaderTitle key={title} title={title} onSort={onSort} />
   ));
 
-  return <div className="SegmentHeader">{titles}</div>;
+  return <div>{titles}</div>;
 }
