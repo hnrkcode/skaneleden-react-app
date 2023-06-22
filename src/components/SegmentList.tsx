@@ -96,7 +96,7 @@ export default function SegmentList({ rows }: SegmentListProps) {
   ));
 
   return (
-    <div>
+    <div className="flex flex-col">
       <SegmentListHeader onSort={handleSort} />
       {renderedItems}
     </div>

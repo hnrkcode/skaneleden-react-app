@@ -19,7 +19,7 @@ export default function SegmentFilters({
   const toDistanceSelectId = useId();
 
   return (
-    <div>
+    <div className="flex flex-row mb-6 gap-2">
       <div>
         <label htmlFor={trackSelectId}>Track</label>
         <select
@@ -27,6 +27,7 @@ export default function SegmentFilters({
           id={trackSelectId}
           defaultValue="all"
           onChange={(event) => onSelectTrack(event.target.value)}
+          className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-1"
         >
           <option value="all">All</option>
           <option value="SL1 Kust till kust">SL1 Kust till kust</option>
@@ -44,6 +45,7 @@ export default function SegmentFilters({
           id={difficultySelectId}
           defaultValue="all"
           onChange={(event) => onSelectDifficulty(event.target.value)}
+          className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-1"
         >
           <option value="all">All</option>
           <option value="very-easy">Very easy</option>
@@ -59,6 +61,7 @@ export default function SegmentFilters({
           id={fromDistanceSelectId}
           defaultValue="0"
           onChange={(event) => onSelectFrom(event.target.value)}
+          className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-1"
         >
           <option value="0">0 km</option>
           <option value="5000">5 km</option>
@@ -74,6 +77,7 @@ export default function SegmentFilters({
           id={toDistanceSelectId}
           defaultValue="25000"
           onChange={(event) => onSelectTo(event.target.value)}
+          className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-1"
         >
           <option value="5000">5 km</option>
           <option value="10000">10 km</option>

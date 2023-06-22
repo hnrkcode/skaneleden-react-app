@@ -83,16 +83,18 @@ function App() {
   }
 
   return (
-    <>
-      <SegmentSearch onSearch={handleSearch} />
-      <SegmentFilters
-        onSelectTrack={handleSelectTrack}
-        onSelectDifficulty={handleSelectDifficulty}
-        onSelectFrom={handleSelectFrom}
-        onSelectTo={handleSelectTo}
-      />
-      <SegmentList rows={rows} />
-    </>
+    <div className="container mx-auto my-16">
+      <div className="flex flex-col">
+        <SegmentSearch onSearch={handleSearch} />
+        <SegmentFilters
+          onSelectTrack={handleSelectTrack}
+          onSelectDifficulty={handleSelectDifficulty}
+          onSelectFrom={handleSelectFrom}
+          onSelectTo={handleSelectTo}
+        />
+        <SegmentList rows={rows} />
+      </div>
+    </div>
   );
 }
 
