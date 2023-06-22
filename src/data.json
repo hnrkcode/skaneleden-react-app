@@ -1,0 +1,1094 @@
+[
+  {
+    "segment": {
+      "name": "1 Sölvesborg - Grundsjön",
+      "slug": "1-solvesborg-grundsjon"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 14000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "2. Näsum-Näsums bokskogar",
+      "slug": "2-nasum-nasums-bokskogar"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 3000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "2 Grundsjön - Östafors",
+      "slug": "2-grundsjon-ostafors"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 16000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "3 Östafors - Bökestad",
+      "slug": "3-ostafors-bokestad"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 9000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "3A Bökestad - Olofström",
+      "slug": "3a-bokestad-olofstrom"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 12000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "3A Olofström - Halens camping",
+      "slug": "3a-olofstrom-halens-camping"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 1000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "4 Bökestad - Brotorpet",
+      "slug": "4-bokestad-brotorpet"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 13000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "5 Brotorpet - Vesslarp",
+      "slug": "5-brotorpet-vesslarp"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 13000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "6 Vesslarp - Glimåkra",
+      "slug": "6-vesslarp-glimakra"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 19000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "6A Breanäsleden", "slug": "6a-breanasleden" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 19000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "6A Breanäsleden/Sibbhult",
+      "slug": "6a-breanasledensibbhult"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 5000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "7 Glimåkra - Osby", "slug": "7-glimakra-osby" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 18000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "8 Osby - Verum", "slug": "8-osby-verum" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 24000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "9 Verum - Vittsjö", "slug": "9-verum-vittsjo" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 12000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "10 Vittsjö - Hårsjö", "slug": "10-vittsjo-harsjo" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 8000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "11 Hårsjö - Lärkesholm",
+      "slug": "11-harsjo-larkesholm"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 20000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "12 Lärkesholm - Bjärabygget",
+      "slug": "12-larkesholm-bjarabygget"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 13000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "12A Lärkesholm - Grytåsa",
+      "slug": "12a-larkesholm-grytasa"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 17000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "13 Bjärabygget - Koarp",
+      "slug": "13-bjarabygget-koarp"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 17000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "14 Koarp - Brammarp", "slug": "14-koarp-brammarp" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 17000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "15 Brammarp - Båstad", "slug": "15-brammarp-bastad" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 12000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "15 Båstad", "slug": "15-bastad" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 1900,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "16 Båstad - Hovs hallar",
+      "slug": "16-bastad-hovs-hallar"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 16000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "16 Båstad tågstation",
+      "slug": "16-bastad-tagstation"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 2600,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "17 Hovs hallar - Torekov",
+      "slug": "17-hovs-hallar-torekov"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 8000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "18 Torekov - Vejbystrand",
+      "slug": "18-torekov-vejbystrand"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 20000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "19 Vejbystrand - Hålehall",
+      "slug": "19-vejbystrand-halehall"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 11000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "20 Hålehall - Örlid", "slug": "20-halehall-orlid" },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 9000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "21 Ängelsbäcksstrand - Båstad",
+      "slug": "21-angelsbacksstrand-bastad"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 14000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "22 Vejbystrand - Ängelholm",
+      "slug": "22-vejbystrand-angelholm"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 16000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "23 Ängelholm - Utvälinge",
+      "slug": "23-angelholm-utvalinge"
+    },
+    "track": { "name": "SL1 Kust till kust", "slug": "sl1-kust-till-kust" },
+    "distance": 7500,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "1 Hårsjö - Olastorp", "slug": "1-harsjo-olastorp" },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 4000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "2 Olastorp - Vedema", "slug": "2-olastorp-vedema" },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 13000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "3 Vedema - Hässleholm",
+      "slug": "3-vedema-hassleholm"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 22000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "4 Hässleholm - Göingeåsen",
+      "slug": "4-hassleholm-goingeasen"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 12500,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "4A Göingeåsen - Hovdala",
+      "slug": "4a-goingeasen-hovdala"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 11000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "4B Hovdala - Skyrup", "slug": "4b-hovdala-skyrup" },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 20000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "4C Skyrup-Hässleholm",
+      "slug": "4c-skyrup-hassleholm"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 16000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "5 Göingeåsen - Lillsjödal",
+      "slug": "5-goingeasen-lillsjodal"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 12000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "6 Lillsjödal - Frostavallen",
+      "slug": "6-lillsjodal-frostavallen"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 21000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "6 Lillsjödal - Maglebjär/Tjörnarp",
+      "slug": "6-lillsjodal-maglebjartjornarp"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 3000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "6 Lillsjödal – Maglebjär/Sösdala",
+      "slug": "6-lillsjodal-maglebjarsosdala"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 3000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "7 Frostavallen - Höör",
+      "slug": "7-frostavallen-hoor"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 7000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "8 Höör - Bjeveröd", "slug": "8-hoor-bjeverod" },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 11000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "9 Bjeveröd - Hörby Ringsjöstrand",
+      "slug": "9-bjeverod-horby-ringsjostrand"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 17000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "9A Fulltofta runt", "slug": "9a-fulltofta-runt" },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 10000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "10 Ringsjöstrand - Rövarekulan",
+      "slug": "10-ringsjostrand-rovarekulan"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 13000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "11 Rövarekulan - Höghult",
+      "slug": "11-rovarekulan-hoghult"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 9000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "12 Höghult - Krankesjön",
+      "slug": "12-hoghult-krankesjon"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 11000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "13 Krankesjön - Väderkullen",
+      "slug": "13-krankesjon-vaderkullen"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 14000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "13A Skrylleslingan", "slug": "13a-skrylleslingan" },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 15000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "14 Väderkullen - Häckeberga",
+      "slug": "14-vaderkullen-hackeberga"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 8000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "14 Väderkullen-Häckeberga/Veberöd",
+      "slug": "14-vaderkullen-hackebergaveberod"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 3000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "15 Häckeberga - Sturup",
+      "slug": "15-hackeberga-sturup"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 11000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "15 Häckeberga-Sturup/Genarp",
+      "slug": "15-hackeberga-sturupgenarp"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 2000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "15A Sturup - Dörröd", "slug": "15a-sturup-dorrod" },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 14000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "16 Sturup - Eksholmssjön",
+      "slug": "16-sturup-eksholmssjon"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 7000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "16 Sturup-Eksholmssjön/Malmö airport",
+      "slug": "16-sturup-eksholmssjonmalmo-airport"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 2000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "17 Eksholmssjön - Torup",
+      "slug": "17-eksholmssjon-torup"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 9000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "18 Torup - Malmö Bulltofta",
+      "slug": "18-torup-malmo-bulltofta"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 14000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "19 Dörröd - Blentarp", "slug": "19-dorrod-blentarp" },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 12000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "20 Blentarp - Snogeholm",
+      "slug": "20-blentarp-snogeholm"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 12000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "21 Torup - Fru Alstad",
+      "slug": "21-torup-fru-alstad"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 18000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "22 Fru Alstad - Trelleborg",
+      "slug": "22-fru-alstad-trelleborg"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 13000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "23 Skåre - Trelleborg",
+      "slug": "23-skare-trelleborg"
+    },
+    "track": { "name": "SL2 Nord till syd", "slug": "sl2-nord-till-syd" },
+    "distance": 10000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "1 Åstorp - Hålebäck", "slug": "1-astorp-haleback" },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 10000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "2 Hålebäck - Krika skog",
+      "slug": "2-haleback-krika-skog"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 11000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "3 Krika skog - Klåveröd",
+      "slug": "3-krika-skog-klaverod"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 14000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "4 Klåveröd - Söderåsens nationalpark",
+      "slug": "4-klaverod-soderasens-nationalpark"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 6000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "5 Söderåsens nationalpark - Jällabjär",
+      "slug": "5-soderasens-nationalpark-jallabjar"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 11000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "6 Jällabjär - S Hultarp",
+      "slug": "6-jallabjar-s-hultarp"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 11000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "7 S Hultarp - Frostavallen",
+      "slug": "7-s-hultarp-frostavallen"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 12000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "8 Frostavallen - Höör",
+      "slug": "8-frostavallen-hoor"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 7000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "9 Höör - Bjeveröd", "slug": "9-hoor-bjeverod" },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 11000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "9 Onsvalakällan", "slug": "9-onsvalakallan" },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 1000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "10 Bjeveröd – Ekeröd", "slug": "10-bjeverod-ekerod" },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 12000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "11 Ekeröd – Timan", "slug": "11-ekerod-timan" },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 13000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "12 Timan - Rebbetuaröd",
+      "slug": "12-timan-rebbetuarod"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 21000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "13 Rebbetuaröd - Agusa",
+      "slug": "13-rebbetuarod-agusa"
+    },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 7000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "14 Agusa - Brösarp", "slug": "14-agusa-brosarp" },
+    "track": { "name": "SL3 Ås till ås", "slug": "sl3-as-till-as" },
+    "distance": 16000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "1 Ystad - Nybrostrand",
+      "slug": "1-ystad-nybrostrand"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 8100,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "2 Nybrostrand - Löderups strandbad",
+      "slug": "2-nybrostrand-loderups-strandbad"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 18000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "3 Löderups strandbad - Borrby strandbad",
+      "slug": "3-loderups-strandbad-borrby-strandbad"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 11000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "4 Borrby strandbad - Simrishamn",
+      "slug": "4-borrby-strandbad-simrishamn"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 20000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "5 Simrishamn - Kivik", "slug": "5-simrishamn-kivik" },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 21000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "6 Kivik - Vantalängan",
+      "slug": "6-kivik-vantalangan"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 15000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "7 Vantalängan - Alunbruket",
+      "slug": "7-vantalangan-alunbruket"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 7000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "7A Alunbruket - Agusa",
+      "slug": "7a-alunbruket-agusa"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 9000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "7B Agusa - Torparebron",
+      "slug": "7b-agusa-torparebron"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 14000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "8 Alunbruket - Heinge",
+      "slug": "8-alunbruket-heinge"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 8000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "9 Heinge - Lövestads åsar",
+      "slug": "9-heinge-lovestads-asar"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 6000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "10 Lövestads åsar - Vitabäck",
+      "slug": "10-lovestads-asar-vitaback"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 14000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "11 Vitabäck - Snogeholm",
+      "slug": "11-vitaback-snogeholm"
+    },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 10000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "12 Snogeholm - Ystad", "slug": "12-snogeholm-ystad" },
+    "track": { "name": "SL4 Österlen", "slug": "sl4-osterlen" },
+    "distance": 24000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "1 Utvälinge - Jonstorp",
+      "slug": "1-utvalinge-jonstorp"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 11000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "2 Jonstorp - Arild", "slug": "2-jonstorp-arild" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 9000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "3 Arild - Mölle", "slug": "3-arild-molle" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 16000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "3A Mölle - Himmelstorp",
+      "slug": "3a-molle-himmelstorp"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 3000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "4A Kullarulla", "slug": "4a-kullarulla" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 10500,
+    "difficulty": "very-easy"
+  },
+  {
+    "segment": { "name": "4 Mölle - Höganäs", "slug": "4-molle-hoganas" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 12000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "5 Höganäs - Domsten", "slug": "5-hoganas-domsten" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 11000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "6 Domsten - Helsingborg",
+      "slug": "6-domsten-helsingborg"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 14000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "6 Domsten - Helsingborg/Sofiero",
+      "slug": "6-domsten-helsingborgsofiero"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 1400,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "7 Helsingborg - Rydebäck",
+      "slug": "7-helsingborg-rydeback"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 16000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "8 Rydebäck - Landskrona",
+      "slug": "8-rydeback-landskrona"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 13000,
+    "difficulty": "hard"
+  },
+  {
+    "segment": {
+      "name": "8 Rydebäck-Landskrona/Glumslöv",
+      "slug": "8-rydeback-landskronaglumslov"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 4000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "9A Ven runt", "slug": "9a-ven-runt" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 12000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "9 Landskrona - Järavallen",
+      "slug": "9-landskrona-jaravallen"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 14000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "9 Landskrona - Tide vindskydd",
+      "slug": "9-landskrona-tide-vindskydd"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 1600,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "9 Landskrona-Järavallen/Landskrona station",
+      "slug": "9-landskrona-jaravallenlandskrona-station"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 1000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "10 Järavallen - Löddeköpinge",
+      "slug": "10-jaravallen-loddekopinge"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 21000,
+    "difficulty": "medium"
+  },
+  {
+    "segment": { "name": "10 Löddeköpinge", "slug": "10-loddekopinge" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 2000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "11 Löddeköpinge - Bjärred",
+      "slug": "11-loddekopinge-bjarred"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 8000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "12 Bjärred - Lomma", "slug": "12-bjarred-lomma" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 6000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "13 Lomma - Spillepeng",
+      "slug": "13-lomma-spillepeng"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 5000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "14 Spillepeng - Bulltofta",
+      "slug": "14-spillepeng-bulltofta"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 6500,
+    "difficulty": "very-easy"
+  },
+  {
+    "segment": {
+      "name": "14 Arlöv/Burlövs station",
+      "slug": "14-arlovburlovs-station"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 1400,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "14A Bulltofta", "slug": "14a-bulltofta" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 1200,
+    "difficulty": "very-easy"
+  },
+  {
+    "segment": {
+      "name": "15 Bulltofta - Malmö C",
+      "slug": "15-bulltofta-malmo-c"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 6400,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "16 Spillepeng - Malmö C",
+      "slug": "16-spillepeng-malmo-c"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 6300,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "17 Malmö C - Limhamn", "slug": "17-malmo-c-limhamn" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 9200,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "18 Limhamn - Klagshamn",
+      "slug": "18-limhamn-klagshamn"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 13300,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "19 Klagshamn - Falsterbokanalen",
+      "slug": "19-klagshamn-falsterbokanalen"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 21000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "19 Foteviken", "slug": "19-foteviken" },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 500,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "20 Falsterbokanalen - Skanör",
+      "slug": "20-falsterbokanalen-skanor"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 16200,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "21 Skanör - Falsterbo",
+      "slug": "21-skanor-falsterbo"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 9100,
+    "difficulty": "medium"
+  },
+  {
+    "segment": {
+      "name": "22 Falsterbo - Falsterbokanalen",
+      "slug": "22-falsterbo-falsterbokanalen"
+    },
+    "track": { "name": "SL5 Öresund", "slug": "sl5-oresund" },
+    "distance": 8200,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "Lerjevallen - Arkelstorp",
+      "slug": "lerjevallen-arkelstorp"
+    },
+    "track": { "name": "SL6 Vattenriket", "slug": "sl6-vattenriket" },
+    "distance": 8000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "Arkelstorp - Österslöv",
+      "slug": "arkelstorp-osterslov"
+    },
+    "track": { "name": "SL6 Vattenriket", "slug": "sl6-vattenriket" },
+    "distance": 8600,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "Österslöv - Norra Lingenäset",
+      "slug": "osterslov-norra-lingenaset"
+    },
+    "track": { "name": "SL6 Vattenriket", "slug": "sl6-vattenriket" },
+    "distance": 11800,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "Norra Lingenäset - Kristianstad",
+      "slug": "norra-lingenaset-kristianstad"
+    },
+    "track": { "name": "SL6 Vattenriket", "slug": "sl6-vattenriket" },
+    "distance": 11000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": {
+      "name": "Kristianstad - Ekenabben",
+      "slug": "kristianstad-ekenabben"
+    },
+    "track": { "name": "SL6 Vattenriket", "slug": "sl6-vattenriket" },
+    "distance": 4000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "Ekenabben - Åhus", "slug": "ekenabben-ahus" },
+    "track": { "name": "SL6 Vattenriket", "slug": "sl6-vattenriket" },
+    "distance": 19000,
+    "difficulty": "easy"
+  },
+  {
+    "segment": { "name": "Åhus - Nyehusen", "slug": "ahus-nyehusen" },
+    "track": { "name": "SL6 Vattenriket", "slug": "sl6-vattenriket" },
+    "distance": 16000,
+    "difficulty": "easy"
+  }
+]
