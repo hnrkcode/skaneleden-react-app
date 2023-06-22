@@ -20,13 +20,16 @@ export default function SegmentListItem({ index, row }: SegmentListItemProps) {
   const distanceInKm = `${row.distance / 1000} km`;
 
   return (
-    <div key={index} className="flex flex-row">
+    <div
+      key={index}
+      className="flex flex-row my-2 p-4 rounded-md border border-gray-300"
+    >
       <div className="basis-1/4">
         <a
           href={`https://www.skaneleden.se/etapp/${row.segment.slug}`}
           target="_blank"
           rel="noreferrer"
-          className="text-blue-500 hover:text-blue-700 visited:text-purple-500 underline"
+          className="text-blue-500 hover:text-blue-700 visited:text-purple-500 hover:underline"
         >
           {row.segment.name}
         </a>
@@ -36,7 +39,7 @@ export default function SegmentListItem({ index, row }: SegmentListItemProps) {
           href={`https://www.skaneleden.se/delled/${row.track.slug}`}
           target="_blank"
           rel="noreferrer"
-          className="text-blue-500 hover:text-blue-700 visited:text-purple-500 underline"
+          className="text-blue-500 hover:text-blue-700 visited:text-purple-500 hover:underline"
         >
           {row.track.name}
         </a>

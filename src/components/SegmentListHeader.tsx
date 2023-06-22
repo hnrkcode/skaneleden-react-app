@@ -9,5 +9,5 @@ export default function SegmentListHeader({ onSort }: SegmentListHeaderProps) {
     <SegmentListHeaderTitle key={title} title={title} onSort={onSort} />
   ));
 
-  return <div className="flex flex-row">{titles}</div>;
+  return <div className="flex flex-row px-4">{titles}</div>;
 }
