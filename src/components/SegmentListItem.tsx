@@ -18,6 +18,12 @@ interface SegmentListItemProps {
 
 export default function SegmentListItem({ index, row }: SegmentListItemProps) {
   const distanceInKm = `${row.distance / 1000} km`;
+  const difficultyIcons: { [key: string]: string } = {
+    "very-easy": "Very easy 😐",
+    easy: "Easy 🙂",
+    medium: "Medium 😮‍💨",
+    hard: "Hard 😵",
+  };
 
   return (
     <div
@@ -45,7 +51,7 @@ export default function SegmentListItem({ index, row }: SegmentListItemProps) {
         </a>
       </div>
       <div className="basis-1/4">{distanceInKm}</div>
-      <div className="basis-1/4">{row.difficulty}</div>
+      <div className="basis-1/4">{difficultyIcons[row.difficulty]}</div>
     </div>
   );
 }
