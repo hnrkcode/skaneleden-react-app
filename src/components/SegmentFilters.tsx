@@ -1,6 +1,13 @@
 import { useId } from "react";
 
+interface Options {
+  trackOptions: string[];
+  difficultyOptions: string[];
+  fromOptions: number[];
+  toOptions: number[];
+}
 interface SegmentFiltersProps {
+  options: Options;
   onSelectTrack: (value: string) => void;
   onSelectDifficulty: (value: string) => void;
   onSelectFrom: (value: string) => void;
@@ -8,6 +15,7 @@ interface SegmentFiltersProps {
 }
 
 export default function SegmentFilters({
+  options,
   onSelectTrack,
   onSelectDifficulty,
   onSelectFrom,
@@ -29,13 +37,13 @@ export default function SegmentFilters({
           onChange={(event) => onSelectTrack(event.target.value)}
           className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-1"
         >
-          <option value="all">All</option>
-          <option value="SL1 Kust till kust">SL1 Kust till kust</option>
-          <option value="SL2 Nord till syd">SL2 Nord till syd</option>
-          <option value="SL3 Ås till ås">SL3 Ås till ås</option>
-          <option value="SL4 Österlen">SL4 Österlen</option>
-          <option value="SL5 Öresund">SL5 Öresund</option>
-          <option value="SL6 Vattenriket">SL6 Vattenriket</option>
+          {options.trackOptions.map((option) => {
+            return (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            );
+          })}
         </select>
       </div>
       <div>
@@ -47,11 +55,16 @@ export default function SegmentFilters({
           onChange={(event) => onSelectDifficulty(event.target.value)}
           className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-1"
         >
-          <option value="all">All</option>
-          <option value="very-easy">Very easy</option>
-          <option value="easy">Easy</option>
-          <option value="medium">Medium</option>
-          <option value="hard">Hard</option>
+          {options.difficultyOptions.map((option) => {
+            return (
+              <option key={option} value={option}>
+                {`${option.charAt(0).toUpperCase() + option.slice(1)}`.replace(
+                  /-/g,
+                  " "
+                )}
+              </option>
+            );
+          })}
         </select>
       </div>
       <div>
@@ -63,11 +76,13 @@ export default function SegmentFilters({
           onChange={(event) => onSelectFrom(event.target.value)}
           className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-1"
         >
-          <option value="0">0 km</option>
-          <option value="5000">5 km</option>
-          <option value="10000">10 km</option>
-          <option value="15000">15 km</option>
-          <option value="20000">20 km</option>
+          {options.fromOptions.map((option) => {
+            return (
+              <option key={option} value={option}>
+                {`${option / 1000} km`}
+              </option>
+            );
+          })}
         </select>
       </div>
       <div>
@@ -79,11 +94,13 @@ export default function SegmentFilters({
           onChange={(event) => onSelectTo(event.target.value)}
           className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-1"
         >
-          <option value="5000">5 km</option>
-          <option value="10000">10 km</option>
-          <option value="15000">15 km</option>
-          <option value="20000">20 km</option>
-          <option value="25000">25 km</option>
+          {options.toOptions.map((option) => {
+            return (
+              <option key={option} value={option}>
+                {`${option / 1000} km`}
+              </option>
+            );
+          })}
         </select>
       </div>
     </div>

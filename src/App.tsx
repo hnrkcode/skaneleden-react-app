@@ -17,12 +17,49 @@ interface Segment {
   difficulty: string;
 }
 
+interface Options {
+  trackOptions: string[];
+  difficultyOptions: string[];
+  fromOptions: number[];
+  toOptions: number[];
+}
+
 function App() {
   const [searchValue, setSearchValue] = useState<string | null>(null);
   const [trackValue, setTrackValue] = useState<string | null>(null);
   const [difficultyValue, setDifficultyValue] = useState<string | null>(null);
   const [fromValue, setFromValue] = useState<number>(0);
   const [toValue, setToValue] = useState<number>(25000);
+
+  function getOptions(segments: Segment[]): Options {
+    const trackOptions = new Set<string>(["all"]);
+    const difficultyOptions = new Set<string>(["all"]);
+    let maxDistance = 0;
+
+    segments.forEach((segment) => {
+      trackOptions.add(segment.track.name);
+      difficultyOptions.add(segment.difficulty);
+      maxDistance = Math.max(maxDistance, segment.distance);
+    });
+
+    const interval = 5000;
+    const roundedMaxDistance = Math.ceil(maxDistance / interval) * interval;
+    const distanceRange = [];
+
+    for (let i = 0; i < Math.floor(roundedMaxDistance / interval) + 1; i++) {
+      distanceRange.push(i * interval);
+    }
+
+    const fromOptions = distanceRange.slice(0, -1);
+    const toOptions = distanceRange.slice(1);
+
+    return {
+      trackOptions: [...trackOptions],
+      difficultyOptions: [...difficultyOptions],
+      fromOptions,
+      toOptions,
+    };
+  }
 
   function handleSelectTrack(value: string) {
     setTrackValue(value);
@@ -46,6 +83,7 @@ function App() {
     setSearchValue(value.toLowerCase());
   }
 
+  const options = getOptions(segmentData);
   let segments = [...segmentData];
 
   // Filter out segments based on the selected values.
@@ -87,6 +125,7 @@ function App() {
       <div className="flex flex-col mx-2">
         <SegmentSearch onSearch={handleSearch} />
         <SegmentFilters
+          options={options}
           onSelectTrack={handleSelectTrack}
           onSelectDifficulty={handleSelectDifficulty}
           onSelectFrom={handleSelectFrom}
