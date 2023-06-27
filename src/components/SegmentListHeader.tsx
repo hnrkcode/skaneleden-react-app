@@ -1,11 +1,10 @@
 import { useState } from "react";
 import SegmentListHeaderTitle from "./SegmentListHeaderTitle";
+import type { SegmentListHeaderPropsType } from "../types/componentTypes";
 
-interface SegmentListHeaderProps {
-  onSort: (column: string, order: string) => void;
-}
-
-export default function SegmentListHeader({ onSort }: SegmentListHeaderProps) {
+export default function SegmentListHeader({
+  onSort,
+}: SegmentListHeaderPropsType) {
   const [activeArrow, setActiveArrow] = useState<string | null>(null);
   const [activeColumn, setActiveColumn] = useState<string | null>(null);
 

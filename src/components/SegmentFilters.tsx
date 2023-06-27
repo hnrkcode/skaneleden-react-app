@@ -1,18 +1,5 @@
 import Select from "./Select";
-
-interface Options {
-  trackOptions: string[];
-  difficultyOptions: string[];
-  fromOptions: number[];
-  toOptions: number[];
-}
-interface SegmentFiltersProps {
-  options: Options;
-  onSelectTrack: (value: string) => void;
-  onSelectDifficulty: (value: string) => void;
-  onSelectFrom: (value: string) => void;
-  onSelectTo: (value: string) => void;
-}
+import type { SegmentFiltersPropsType } from "../types/componentTypes";
 
 export default function SegmentFilters({
   options,
@@ -20,7 +7,7 @@ export default function SegmentFilters({
   onSelectDifficulty,
   onSelectFrom,
   onSelectTo,
-}: SegmentFiltersProps) {
+}: SegmentFiltersPropsType) {
   const { trackOptions, difficultyOptions, fromOptions, toOptions } = options;
 
   function convertToKM(value: string): string {

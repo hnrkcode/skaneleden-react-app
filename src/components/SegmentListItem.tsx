@@ -1,22 +1,9 @@
-interface Segment {
-  segment: {
-    name: string;
-    slug: string;
-  };
-  track: {
-    name: string;
-    slug: string;
-  };
-  distance: number;
-  difficulty: string;
-}
+import type { SegmentListItemPropsType } from "../types/componentTypes";
 
-interface SegmentListItemProps {
-  index: number;
-  row: Segment;
-}
-
-export default function SegmentListItem({ index, row }: SegmentListItemProps) {
+export default function SegmentListItem({
+  index,
+  row,
+}: SegmentListItemPropsType) {
   const distanceInKm = `${row.distance / 1000} km`;
   const difficultyIcons: { [key: string]: string } = {
     "very-easy": "Very easy 😐",

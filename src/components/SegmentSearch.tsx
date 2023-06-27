@@ -1,8 +1,6 @@
-interface SegmentSearchProps {
-  onSearch: (value: string) => void;
-}
+import type { SegmentSearchPropsType } from "../types/componentTypes";
 
-export default function SegmentSearch({ onSearch }: SegmentSearchProps) {
+export default function SegmentSearch({ onSearch }: SegmentSearchPropsType) {
   return (
     <div className="mb-2">
       {" "}

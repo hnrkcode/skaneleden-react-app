@@ -1,35 +1,18 @@
 import { useState, useEffect } from "react";
 import SegmentListHeader from "./SegmentListHeader";
 import SegmentListItem from "./SegmentListItem";
+import type { SegmentListPropsType } from "../types/componentTypes";
+import type { Segments, Difficulty } from "../types/commonTypes";
 
-interface Segment {
-  segment: {
-    name: string;
-    slug: string;
-  };
-  track: {
-    name: string;
-    slug: string;
-  };
-  distance: number;
-  difficulty: string;
-}
-
-interface SegmentListProps {
-  rows: Segment[];
-}
-
-type Difficulty = "very-easy" | "easy" | "medium" | "hard";
-
-export default function SegmentList({ rows }: SegmentListProps) {
-  const [items, setItems] = useState<Segment[]>([]);
+export default function SegmentList({ rows }: SegmentListPropsType) {
+  const [items, setItems] = useState<Segments>([]);
 
   useEffect(() => {
     setItems(rows);
   }, [rows]);
 
   function handleSort(column: string, order: string) {
-    let sortedItems: Segment[] = [];
+    let sortedItems: Segments = [];
 
     if (column === "Segment") {
       sortedItems = [...items].sort((a, b) => {

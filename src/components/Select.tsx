@@ -1,12 +1,5 @@
 import { useId } from "react";
-
-interface SelectProps {
-  name: string;
-  defaultValue: string;
-  onSelect: (value: string) => void;
-  options: string[] | number[];
-  optionFunc?: (value: string) => string;
-}
+import type { SelectPropsType } from "../types/componentTypes";
 
 export default function Select({
   name,
@@ -14,7 +7,7 @@ export default function Select({
   onSelect,
   options,
   optionFunc,
-}: SelectProps) {
+}: SelectPropsType) {
   const selectId = useId();
   const capitalizedName = name.charAt(0).toUpperCase() + name.slice(1);
 

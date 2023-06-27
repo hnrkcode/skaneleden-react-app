@@ -3,26 +3,7 @@ import SegmentSearch from "./components/SegmentSearch";
 import SegmentFilters from "./components/SegmentFilters";
 import SegmentList from "./components/SegmentList";
 import { useState } from "react";
-
-interface Segment {
-  segment: {
-    name: string;
-    slug: string;
-  };
-  track: {
-    name: string;
-    slug: string;
-  };
-  distance: number;
-  difficulty: string;
-}
-
-interface Options {
-  trackOptions: string[];
-  difficultyOptions: string[];
-  fromOptions: number[];
-  toOptions: number[];
-}
+import type { Segments, SelectionOptions } from "./types/commonTypes";
 
 function App() {
   const [searchValue, setSearchValue] = useState<string | null>(null);
@@ -31,7 +12,7 @@ function App() {
   const [fromValue, setFromValue] = useState<number>(0);
   const [toValue, setToValue] = useState<number>(25000);
 
-  function getOptions(segments: Segment[]): Options {
+  function getOptions(segments: Segments): SelectionOptions {
     const trackOptions = new Set<string>(["All"]);
     const difficultyOptions = new Set<string>(["All"]);
     let maxDistance = 0;
@@ -107,7 +88,7 @@ function App() {
     segments = [];
   }
 
-  let rows: Segment[] = [];
+  let rows: Segments = [];
 
   // Filter out segments that isn't matching with the search value.
   if (searchValue) {

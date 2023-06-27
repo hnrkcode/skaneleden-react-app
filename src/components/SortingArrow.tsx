@@ -1,10 +1,4 @@
-interface SortingArrowProps {
-  activeArrow: string | null;
-  activeColumn: string | null;
-  title: string;
-  order: string;
-  onSort: (column: string, order: string) => void;
-}
+import type { SortingArrowPropsType } from "../types/componentTypes";
 
 export default function SortingArrow({
   activeArrow,
@@ -12,7 +6,7 @@ export default function SortingArrow({
   title,
   order,
   onSort,
-}: SortingArrowProps) {
+}: SortingArrowPropsType) {
   const ascArrow = "&#9650;";
   const descArrow = "&#9660;";
   const clickedArrow = order === "asc" ? ascArrow : descArrow;
