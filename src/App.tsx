@@ -1,7 +1,7 @@
 import segmentData from "./data.json";
-import SegmentSearch from "./components/SegmentSearch";
-import SegmentFilters from "./components/SegmentFilters";
-import SegmentList from "./components/SegmentList";
+import SearchBar from "./components/search/SearchBar";
+import SearchFilters from "./components/filters/SearchFilters";
+import SearchResultList from "./components/results/SearchResultList";
 import { useState } from "react";
 import type { Segments, SelectionOptions } from "./types/commonTypes";
 
@@ -104,15 +104,15 @@ function App() {
   return (
     <div className="container mx-auto my-2 md:my-16">
       <div className="flex flex-col mx-2">
-        <SegmentSearch onSearch={handleSearch} />
-        <SegmentFilters
+        <SearchBar onSearch={handleSearch} />
+        <SearchFilters
           options={options}
           onSelectTrack={handleSelectTrack}
           onSelectDifficulty={handleSelectDifficulty}
           onSelectFrom={handleSelectFrom}
           onSelectTo={handleSelectTo}
         />
-        <SegmentList rows={rows} />
+        <SearchResultList rows={rows} />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import type { SortingArrowPropsType } from "../types/componentTypes";
+import type { SortingArrowPropsType } from "../../types/componentTypes";
 
 export default function SortingArrow({
   activeArrow,

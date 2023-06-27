@@ -1,10 +1,6 @@
-import { SegmentListItemLinkType } from "../types/componentTypes";
+import { LinkType } from "../../types/componentTypes";
 
-export default function SegmentListItemLink({
-  baseUrl,
-  slug,
-  name,
-}: SegmentListItemLinkType) {
+export default function Link({ baseUrl, slug, name }: LinkType) {
   return (
     <a
       href={`${baseUrl}/${slug}`}

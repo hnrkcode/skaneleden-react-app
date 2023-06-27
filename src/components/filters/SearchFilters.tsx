@@ -1,14 +1,14 @@
 import Select from "./Select";
-import type { SegmentFiltersPropsType } from "../types/componentTypes";
-import { convertToKM } from "../utils";
+import type { SearchFiltersPropsType } from "../../types/componentTypes";
+import { convertToKM } from "../../utils";
 
-export default function SegmentFilters({
+export default function SearchFilters({
   options,
   onSelectTrack,
   onSelectDifficulty,
   onSelectFrom,
   onSelectTo,
-}: SegmentFiltersPropsType) {
+}: SearchFiltersPropsType) {
   const { trackOptions, difficultyOptions, fromOptions, toOptions } = options;
 
   return (

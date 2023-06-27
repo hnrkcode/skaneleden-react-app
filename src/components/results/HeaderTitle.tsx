@@ -1,12 +1,12 @@
 import SortingArrow from "./SortingArrow";
-import type { SegmentListHeaderTitlePropsType } from "../types/componentTypes";
+import type { HeaderTitlePropsType } from "../../types/componentTypes";
 
-export default function SegmentListHeaderTitle({
+export default function HeaderTitle({
   title,
   activeArrow,
   activeColumn,
   onSort,
-}: SegmentListHeaderTitlePropsType) {
+}: HeaderTitlePropsType) {
   return (
     <div className="flex flex-row basis-1/4 items-center gap-2 mb-2">
       <h2 className="font-bold">{title}</h2>

@@ -1,6 +1,6 @@
-import type { SegmentSearchPropsType } from "../types/componentTypes";
+import type { SearchBarPropsType } from "../../types/componentTypes";
 
-export default function SegmentSearch({ onSearch }: SegmentSearchPropsType) {
+export default function SearchBar({ onSearch }: SearchBarPropsType) {
   return (
     <div className="mb-2">
       {" "}

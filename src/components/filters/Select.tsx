@@ -1,5 +1,5 @@
 import { useId } from "react";
-import type { SelectPropsType } from "../types/componentTypes";
+import type { SelectPropsType } from "../../types/componentTypes";
 
 export default function Select({
   name,

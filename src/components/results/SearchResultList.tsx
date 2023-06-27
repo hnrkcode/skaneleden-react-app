@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import SegmentListHeader from "./SegmentListHeader";
-import SegmentListItem from "./SegmentListItem";
-import { compareName, compareDifficulty, compareDistance } from "../utils";
-import type { SegmentListPropsType } from "../types/componentTypes";
-import type { Segments } from "../types/commonTypes";
+import Headers from "./Headers";
+import ListItem from "./ListItem";
+import { compareName, compareDifficulty, compareDistance } from "../../utils";
+import type { SearchResultListPropsType } from "../../types/componentTypes";
+import type { Segments } from "../../types/commonTypes";
 
-export default function SegmentList({ rows }: SegmentListPropsType) {
+export default function SearchResultList({ rows }: SearchResultListPropsType) {
   const [items, setItems] = useState<Segments>([]);
 
   useEffect(() => {
@@ -37,12 +37,12 @@ export default function SegmentList({ rows }: SegmentListPropsType) {
   }
 
   const renderedItems = items.map((row, index) => (
-    <SegmentListItem key={index} index={index} row={row} />
+    <ListItem key={index} index={index} row={row} />
   ));
 
   return (
     <div className="flex flex-col">
-      <SegmentListHeader onSort={handleSort} />
+      <Headers onSort={handleSort} />
       {renderedItems}
     </div>
   );

@@ -16,31 +16,31 @@ export type SelectPropsType = {
   optionFunc?: (value: string) => string;
 };
 
-export type SegmentSearchPropsType = {
+export type SearchBarPropsType = {
   onSearch: (value: string) => void;
 };
 
-export type SegmentListItemPropsType = {
+export type ListItemPropsType = {
   index: number;
   row: Segment;
 };
 
-export type SegmentListHeaderTitlePropsType = {
+export type HeaderTitlePropsType = {
   title: string;
   activeArrow: string | null;
   activeColumn: string | null;
   onSort: (column: string, order: string) => void;
 };
 
-export type SegmentListHeaderPropsType = {
+export type HeadersPropsType = {
   onSort: (column: string, order: string) => void;
 };
 
-export type SegmentListPropsType = {
+export type SearchResultListPropsType = {
   rows: Segments;
 };
 
-export type SegmentFiltersPropsType = {
+export type SearchFiltersPropsType = {
   options: SelectionOptions;
   onSelectTrack: (value: string) => void;
   onSelectDifficulty: (value: string) => void;
@@ -48,7 +48,7 @@ export type SegmentFiltersPropsType = {
   onSelectTo: (value: string) => void;
 };
 
-export type SegmentListItemLinkType = {
+export type LinkType = {
   baseUrl: string;
   slug: string;
   name: string;

@@ -1,10 +1,8 @@
 import { useState } from "react";
-import SegmentListHeaderTitle from "./SegmentListHeaderTitle";
-import type { SegmentListHeaderPropsType } from "../types/componentTypes";
+import HeaderTitle from "./HeaderTitle";
+import type { HeadersPropsType } from "../../types/componentTypes";
 
-export default function SegmentListHeader({
-  onSort,
-}: SegmentListHeaderPropsType) {
+export default function Headers({ onSort }: HeadersPropsType) {
   const [activeArrow, setActiveArrow] = useState<string | null>(null);
   const [activeColumn, setActiveColumn] = useState<string | null>(null);
 
@@ -15,7 +13,7 @@ export default function SegmentListHeader({
   }
 
   const titles = ["Segment", "Track", "Distance", "Difficulty"].map((title) => (
-    <SegmentListHeaderTitle
+    <HeaderTitle
       key={title}
       title={title}
       onSort={handleClick}
