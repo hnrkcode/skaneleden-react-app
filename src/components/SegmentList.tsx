@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import SegmentListHeader from "./SegmentListHeader";
 import SegmentListItem from "./SegmentListItem";
+import { compareName, compareDifficulty, compareDistance } from "../utils";
 import type { SegmentListPropsType } from "../types/componentTypes";
-import type { Segments, Difficulty } from "../types/commonTypes";
+import type { Segments } from "../types/commonTypes";
 
 export default function SegmentList({ rows }: SegmentListPropsType) {
   const [items, setItems] = useState<Segments>([]);
@@ -15,60 +16,21 @@ export default function SegmentList({ rows }: SegmentListPropsType) {
     let sortedItems: Segments = [];
 
     if (column === "Segment") {
-      sortedItems = [...items].sort((a, b) => {
-        const nameA = a.segment.name.toLowerCase();
-        const nameB = b.segment.name.toLowerCase();
-
-        if (nameA < nameB) {
-          return order === "asc" ? -1 : 1;
-        }
-
-        if (nameA > nameB) {
-          return order === "asc" ? 1 : -1;
-        }
-
-        return 0;
-      });
+      sortedItems = [...items].sort((a, b) =>
+        compareName(a.segment.name, b.segment.name, order)
+      );
     } else if (column === "Track") {
-      sortedItems = [...items].sort((a, b) => {
-        const nameA = a.track.name.toLowerCase();
-        const nameB = b.track.name.toLowerCase();
-
-        if (nameA < nameB) {
-          return order === "asc" ? -1 : 1;
-        }
-
-        if (nameA > nameB) {
-          return order === "asc" ? 1 : -1;
-        }
-
-        return 0;
-      });
+      sortedItems = [...items].sort((a, b) =>
+        compareName(a.track.name, b.track.name, order)
+      );
     } else if (column === "Distance") {
-      sortedItems = [...items].sort((a, b) => {
-        if (order === "asc") {
-          return a.distance - b.distance;
-        } else {
-          return b.distance - a.distance;
-        }
-      });
+      sortedItems = [...items].sort((a, b) =>
+        compareDistance(a.distance, b.distance, order)
+      );
     } else if (column === "Difficulty") {
-      sortedItems = [...items].sort((a, b) => {
-        const difficulties: Record<Difficulty, number> = {
-          "very-easy": 0,
-          easy: 1,
-          medium: 2,
-          hard: 3,
-        };
-        const nameA = a.difficulty.toLowerCase() as Difficulty;
-        const nameB = b.difficulty.toLowerCase() as Difficulty;
-
-        if (order === "asc") {
-          return difficulties[nameA] - difficulties[nameB];
-        } else {
-          return difficulties[nameB] - difficulties[nameA];
-        }
-      });
+      sortedItems = [...items].sort((a, b) =>
+        compareDifficulty(a.difficulty, b.difficulty, order)
+      );
     }
 
     setItems(sortedItems);
