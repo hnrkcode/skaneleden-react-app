@@ -1,10 +1,11 @@
 import type { SegmentListItemPropsType } from "../types/componentTypes";
+import { convertToKM } from "../utils";
 
 export default function SegmentListItem({
   index,
   row,
 }: SegmentListItemPropsType) {
-  const distanceInKm = `${row.distance / 1000} km`;
+  const distanceInKm = convertToKM(row.distance.toString());
   const difficultyIcons: { [key: string]: string } = {
     "very-easy": "Very easy 😐",
     easy: "Easy 🙂",

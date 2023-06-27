@@ -1,5 +1,6 @@
 import Select from "./Select";
 import type { SegmentFiltersPropsType } from "../types/componentTypes";
+import { convertToKM } from "../utils";
 
 export default function SegmentFilters({
   options,
@@ -9,10 +10,6 @@ export default function SegmentFilters({
   onSelectTo,
 }: SegmentFiltersPropsType) {
   const { trackOptions, difficultyOptions, fromOptions, toOptions } = options;
-
-  function convertToKM(value: string): string {
-    return `${parseInt(value) / 1000} km`;
-  }
 
   return (
     <div className="flex flex-row mb-6 justify-between md:justify-start md:gap-2">
