@@ -32,8 +32,8 @@ function App() {
   const [toValue, setToValue] = useState<number>(25000);
 
   function getOptions(segments: Segment[]): Options {
-    const trackOptions = new Set<string>(["all"]);
-    const difficultyOptions = new Set<string>(["all"]);
+    const trackOptions = new Set<string>(["All"]);
+    const difficultyOptions = new Set<string>(["All"]);
     let maxDistance = 0;
 
     segments.forEach((segment) => {
@@ -87,13 +87,13 @@ function App() {
   let segments = [...segmentData];
 
   // Filter out segments based on the selected values.
-  if (trackValue && trackValue !== "all") {
+  if (trackValue && trackValue.toLowerCase() !== "all") {
     segments = segmentData.filter(
       (segment) => segment.track.name === trackValue
     );
   }
 
-  if (difficultyValue && difficultyValue !== "all") {
+  if (difficultyValue && difficultyValue.toLowerCase() !== "all") {
     segments = segments.filter(
       (segment) => segment.difficulty === difficultyValue
     );
