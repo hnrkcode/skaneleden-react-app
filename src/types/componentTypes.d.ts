@@ -47,3 +47,9 @@ export type SegmentFiltersPropsType = {
   onSelectFrom: (value: string) => void;
   onSelectTo: (value: string) => void;
 };
+
+export type SegmentListItemLinkType = {
+  baseUrl: string;
+  slug: string;
+  name: string;
+};
