@@ -1,7 +1,13 @@
 import { useState, useEffect } from "react";
 import Headers from "./Headers";
 import ListItem from "./ListItem";
-import { compareName, compareDifficulty, compareDistance } from "../../utils";
+import {
+  compareName,
+  compareDifficulty,
+  compareDistance,
+  compareLowElevation,
+  compareHighElevation,
+} from "../../utils";
 import type { SearchResultListPropsType } from "../../types/componentTypes";
 import type { Segments } from "../../types/commonTypes";
 
@@ -26,6 +32,14 @@ export default function SearchResultList({ rows }: SearchResultListPropsType) {
     } else if (column === "Distance") {
       sortedItems = [...items].sort((a, b) =>
         compareDistance(a.distance, b.distance, order)
+      );
+    } else if (column === "Lowest point") {
+      sortedItems = [...items].sort((a, b) =>
+        compareLowElevation(a.elevation, b.elevation, order)
+      );
+    } else if (column === "Heighest point") {
+      sortedItems = [...items].sort((a, b) =>
+        compareHighElevation(a.elevation, b.elevation, order)
       );
     } else if (column === "Difficulty") {
       sortedItems = [...items].sort((a, b) =>

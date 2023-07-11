@@ -9,6 +9,7 @@ export type Segment = {
   };
   distance: number;
   difficulty: string;
+  elevation: number[] | null;
 };
 
 export type Segments = Segment[];

@@ -12,7 +12,14 @@ export default function Headers({ onSort }: HeadersPropsType) {
     onSort(column, order);
   }
 
-  const titles = ["Segment", "Track", "Distance", "Difficulty"].map((title) => (
+  const titles = [
+    "Segment",
+    "Track",
+    "Distance",
+    "Lowest point",
+    "Heighest point",
+    "Difficulty",
+  ].map((title) => (
     <HeaderTitle
       key={title}
       title={title}
